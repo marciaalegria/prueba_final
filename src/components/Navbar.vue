@@ -4,7 +4,7 @@
 
         <v-toolbar-title>Compañía</v-toolbar-title>
         <v-btn depressed color="default" @click="$router.push('/')">Home</v-btn>
-        <v-btn depressed color="default" @click="$router.push('/')">Ordenes</v-btn>
+        <v-btn depressed color="default" @click="$router.push('/ordenes')">Ordenes</v-btn>
         <v-btn depressed color="default" @click="$router.push('/')">Inventario</v-btn>
         <v-spacer></v-spacer>
         <v-btn depressed color="default" @click="logout">Cerrar sesión</v-btn>
