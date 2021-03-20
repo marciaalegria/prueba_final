@@ -11,7 +11,7 @@
         "atrasadas": "14"
       }
     ],
-    "utimas_ordenes": [
+    "ultimas_ordenes": [
       {
         "num_orden": "123446",
         "cliente": "Multitiendas Sigma SA",
@@ -37,7 +37,7 @@
         "estado": "Entregado"
       }
     ],
-    "ultimas_devoluciones:": [
+    "ultimas_devoluciones": [
       {
         "num_orden": "122289",
         "cliente": "Multi Game SpA",

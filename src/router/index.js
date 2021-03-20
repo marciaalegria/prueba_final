@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import NotFound from '../views/NotFound.vue'
 import store from '../store'
+import Ordenes from '../views/Ordenes.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,14 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login
+  },
+  {
+    path: '/ordenes',
+    name: 'Ordenes',
+    component: Ordenes,
+    meta: {
+      autenticado: true
+    }
   },
   {
     path: '/about',

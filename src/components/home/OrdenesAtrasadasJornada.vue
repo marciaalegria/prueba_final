@@ -12,11 +12,11 @@
         </v-col>
         <v-col>
             <div class="valor">{{totales}}</div>
-            <div class="detalle_valor">ordenes entregadas</div>
+            <div class="detalle_valor">ordenes totales</div>
         </v-col>
         <v-col>
             <div class="valor">{{atrasadas}}</div>
-            <div class="detalle_valor">ordenes pendientes</div>
+            <div class="detalle_valor">ordenes atrasadas</div>
         </v-col>
     </v-row>
 </v-container>
@@ -49,7 +49,7 @@ export default {
         fetchVentas(){
             axios.get('http://localhost:8080/api/dashboard.json')
             .then(resp=> {
-                console.log(resp.data.kpis[1].nombre)
+                
                 let nombre= resp.data.kpis[1].nombre
                 let totales= resp.data.kpis[1].totales
                 let atrasadas = resp.data.kpis[1].atrasadas

@@ -49,7 +49,6 @@ export default {
         fetchVentas(){
             axios.get('http://localhost:8080/api/dashboard.json')
             .then(resp=> {
-                console.log(resp.data.kpis[0].nombre)
                 let nombre= resp.data.kpis[0].nombre
                 let entregadas= resp.data.kpis[0].entregadas
                 let pendientes = resp.data.kpis[0].pendientes
