@@ -46,9 +46,9 @@
 
 
         </tr>
-      </tbody>
-    </template>
-  </v-simple-table>
+        </tbody>
+        </template>
+        </v-simple-table>
         </v-container>
     </div>
 </template>
